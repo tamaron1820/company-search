@@ -79,7 +79,6 @@ const Home = ({ }) => {
   }
   const handleSearch = async (query, searchType) => {
     try {
-      //const response = await axios.get(`http://localhost:3001/api/corporations?query=${query}&searchType=${searchType}`);
       const response = await axios.get(`http://localhost:3001/api/corporations/search?query=${query}&searchType=${searchType}`);
       setCompanies(response.data.data);
     } catch (error) {
@@ -97,7 +96,7 @@ const Home = ({ }) => {
           <ul>
             {companies.map((company) => (
               <li key={company.id}>
-                {company.code} - {company.name} - {company.status} - {company.name_kana} - {company.postal_code} - {company.address} - {company.representative_name} - {company.representative_name_kana} - {company.phone}
+                {company.code} - {company.name} - {company.status} - {company.name_kana} - {company.postal_code} - {company.address} - {company.representative_name} - {company.representative_name_kana} - {company.phone} - {company.sales_2022} - {company.profit_2022} - {company.sales_2021} - {company.profit_2021} -{company.sales_2020} - {company.profit_2020}
               </li>
             ))}
           </ul>
@@ -112,7 +111,7 @@ const Home = ({ }) => {
           <ul>
             {companies.map((company) => (
               <li key={company.id}>
-                {company.code} - {company.name} - {company.status} - {company.name_kana} - {company.postal_code} - {company.address} - {company.representative_name} - {company.representative_name_kana} - {company.phone}
+                {company.code} - {company.name} - {company.status} - {company.name_kana} - {company.postal_code} - {company.address} - {company.representative_name} - {company.representative_name_kana} - {company.phone} - {company.sales_2022} - {company.profit_2022} - {company.sales_2021} - {company.profit_2021} -{company.sales_2020} - {company.profit_2020}
                 <button onClick={() => handleDeleteCompany(company.id)}>削除</button>
               </li>
             ))}
