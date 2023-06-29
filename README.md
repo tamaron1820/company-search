@@ -49,6 +49,7 @@ rails s
 フロントエンドの起動
 ```bash
 cd company-search/dummy-corp-front
+npm upgrade
 npm run dev
 ```
 http://localhost:3000にアクセス
