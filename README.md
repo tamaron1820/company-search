@@ -9,12 +9,15 @@
 ![スクリーンショット 2023-06-29 11 50 33](https://github.com/tamaron1820/company-search/assets/104906428/73fd7b53-62a2-430d-b871-77d993621ade)
 
 User用UI
-![スクリーンショット 2023-06-29 11 10 38](https://github.com/tamaron1820/company-search/assets/104906428/dc75804c-685d-4235-9252-f88ce3ae87ee)
-![スクリーンショット 2023-06-29 11 14 24](https://github.com/tamaron1820/company-search/assets/104906428/aef7c354-5db6-48b6-9b87-3ef97d9db34a)
+![スクリーンショット 2023-07-02 12 27 32](https://github.com/tamaron1820/company-search/assets/104906428/a0ed95c2-aaa2-4931-aaab-42e8eeb06b74)
+![スクリーンショット 2023-07-02 12 27 41](https://github.com/tamaron1820/company-search/assets/104906428/f99b825e-2980-4b06-8bce-74e8614f808a)
+
 
 管理者用UI
-![スクリーンショット 2023-06-29 11 12 53](https://github.com/tamaron1820/company-search/assets/104906428/995fddfc-f8df-4a62-b7d1-e46daaa87c0e)
-![スクリーンショット 2023-06-29 11 13 27](https://github.com/tamaron1820/company-search/assets/104906428/71b48d02-ff1e-4985-abce-cc3864803975)
+![スクリーンショット 2023-07-02 12 26 52](https://github.com/tamaron1820/company-search/assets/104906428/87649fd2-176c-49fd-8b32-247ea5d7e800)
+![スクリーンショット 2023-07-02 12 27 11](https://github.com/tamaron1820/company-search/assets/104906428/9dd376ca-f073-412f-b373-acaa73ec777e)
+
+
 
 
 # Features
